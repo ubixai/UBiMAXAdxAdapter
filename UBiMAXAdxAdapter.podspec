@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UBiMAXAdxAdapter'
-  s.version          = '2.9.0.0'
+  s.version          = '2.9.2.0'
   s.summary          = 'UBiX聚合Sass SDK Adx Adapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
 
