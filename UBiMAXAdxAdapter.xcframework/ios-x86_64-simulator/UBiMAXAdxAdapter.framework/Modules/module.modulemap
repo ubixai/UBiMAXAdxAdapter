@@ -1,0 +1,6 @@
+framework module UBiMAXAdxAdapter {
+  umbrella header "UBiMAXAdxAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}
