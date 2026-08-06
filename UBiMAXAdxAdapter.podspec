@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UBiMAXAdxAdapter'
-  s.version          = '2.13.1.0'
+  s.version          = '2.13.1.11.0'
   s.summary          = 'UBiX聚合Sass SDK Adx Adapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
 
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
     'OTHER_LINK_FLAG' => '$(inherited) -ObjC' }
 
- s.dependency 'UBiXMediationSDK'
+ s.dependency 'UBiXMediationSDK', '2.13.1.11'
  s.dependency 'UBiMAXAdSDK'
 
 end
